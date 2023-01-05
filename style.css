@@ -10,24 +10,25 @@
         background-color: hsl(30, 38%, 92%);
         padding: 10rem;
     }
-    .gabr-grid{
-        border: 1px solid red;
+    .gabr-flex{
+        /* border: 1px solid red; */
         width: 50vw;
         margin: auto;
         display: flex;
-        
+        justify-content: center;
     }
     .gabr-perf{        
         border: 1px solid blue;
-        /* width: 50%; */
+        flex-basis: 30%;
     }
-    .gabr-perf img{
+    .gabr-img img{
         width: 100%;
     }
     .gabr-text{
         background-color: #fff;
+        border: 1px solid black;
+        flex-basis: 30%;
         
-        /* width: 50%; */
     }
     .gabr-text h5{
         letter-spacing: .5rem;
