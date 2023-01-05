@@ -8,7 +8,7 @@
     }
     .pry-bg{
         background-color: hsl(30, 38%, 92%);
-        padding: 10rem;
+        padding: 15rem 10rem;
     }
     .gabr-flex{
         /* border: 1px solid red; */
@@ -76,5 +76,20 @@
         /* border: 1px solid blue; */
         margin-right: 2.5rem;
         text-decoration: line-through;
-        color: hsl(228, 12%, 48%)
+        color: hsl(228, 12%, 48%);
+    }
+    button{
+        display: flex;
+        border: none;
+        background-color: hsl(158, 36%, 37%);
+        padding: .9rem 3.5rem;
+        border-radius: .7rem;
+        margin-top: 3.3rem;
+    }
+    button h4{
+        color: hsl(0, 0%, 100%);
+    }
+    button img{
+        margin-right: 1.1rem;
+        color: hsl(228, 12%, 48%);
     }
