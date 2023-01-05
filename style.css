@@ -1,13 +1,18 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.pry-bg{
-    background-color: hsl(30, 38%, 92%);
-}
-.gabr-grid{
-    border: 1px solid red;
-    display: grid;
-    
-}
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .pry-bg{
+        background-color: hsl(30, 38%, 92%);
+    }
+    .gabr-grid{
+        border: 1px solid red;
+        display: grid;
+        height: 300px;
+    }
+    .gabr-perf{
+        background-image: url(./images/image-product-desktop.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
