@@ -11,7 +11,6 @@
         padding: 15rem 10rem;
     }
     .gabr-flex{
-        /* border: 1px solid red; */
         width: 50vw;
         margin: auto;
         display: flex;
@@ -19,7 +18,6 @@
         
     }
     .gabr-perf{        
-        /* border: 1px solid blue; */
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
         flex-basis: 33%;
@@ -32,7 +30,6 @@
     }
     .gabr-text{
         background-color: #fff;
-        /* border: 1px solid black; */
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
         flex-basis: 33%;
@@ -51,7 +48,6 @@
     .gabr-text h2{
         font-size: 2rem;
         line-height: 1;
-        /* letter-spacing: .1rem; */
         margin: 1.3rem 0;
         font-family: 'Fraunces', serif;
     }
@@ -62,18 +58,15 @@
     }
     .price-flex{
         display: flex;
-        /* border: 1px solid red; */
         justify-content: space-between;
         align-items: center;
         margin: 1rem 0;
     }
     .price-flex h2{
-        /* border: 1px solid black; */
         font-size: 1.9rem;
         color: hsl(158, 36%, 37%);
     }
-    .price-flex p{
-        /* border: 1px solid blue; */
+    .price-flex p{   
         margin-right: 2.5rem;
         text-decoration: line-through;
         color: hsl(228, 12%, 48%);
@@ -92,4 +85,20 @@
     button img{
         margin-right: 1.1rem;
         color: hsl(228, 12%, 48%);
+    }
+
+    /* --------------------MEDIA QUERY BEGINS HERE-------------------- */
+    @media(max-width: 375px){
+        .gabr-flex{
+            display: flex;
+            flex-direction: column;
+        }
+        .gabr-perf{
+            border-top-right-radius: 1rem;
+            border-bottom-left-radius: 0;
+        }
+        .gabr-img img{
+            border-top-right-radius: 1rem;
+            border-bottom-left-radius: 0;
+        }
     }
