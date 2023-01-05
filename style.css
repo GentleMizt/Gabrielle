@@ -3,6 +3,9 @@
         margin: 0;
         box-sizing: border-box;
     }
+    html{
+        font-size: 10px;
+    }
     .pry-bg{
         background-color: hsl(30, 38%, 92%);
     }
@@ -15,4 +18,10 @@
         background-image: url(./images/image-product-desktop.jpg);
         background-size: contain;
         background-repeat: no-repeat;
+    }
+    .gabr-text{
+        background-color: #fff;
+    }
+    .gabr-text h5{
+        letter-spacing: .5rem;
     }
