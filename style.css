@@ -92,7 +92,7 @@
     }
 
     /* --------------------MEDIA QUERY BEGINS HERE-------------------- */
-    @media(max-width: 375px){
+    @media(max-width: 575px){
         .pry-bg{
             padding: 1rem 0;
         }
