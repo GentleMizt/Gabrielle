@@ -3,3 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
+.pry-bg{
+    background-color: hsl(30, 38%, 92%);
+}
