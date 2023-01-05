@@ -6,3 +6,8 @@
 .pry-bg{
     background-color: hsl(30, 38%, 92%);
 }
+.gabr-grid{
+    border: 1px solid red;
+    display: grid;
+    
+}
