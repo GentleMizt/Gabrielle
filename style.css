@@ -12,21 +12,21 @@
     }
     .gabr-grid{
         border: 1px solid red;
-        width: 40vw;
+        width: 50vw;
         margin: auto;
-        display: grid;
-        grid-template-areas: left right;
+        display: flex;
+        
     }
-    .gabr-perf{
-        background-image: url(./images/image-product-desktop.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        grid-area: left;
+    .gabr-perf{        
+        border: 1px solid blue;
         /* width: 50%; */
+    }
+    .gabr-perf img{
+        width: 100%;
     }
     .gabr-text{
         background-color: #fff;
-        grid-area: right;
+        
         /* width: 50%; */
     }
     .gabr-text h5{
