@@ -16,19 +16,32 @@
         margin: auto;
         display: flex;
         justify-content: center;
+        
     }
     .gabr-perf{        
         border: 1px solid blue;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
         flex-basis: 30%;
     }
     .gabr-img img{
         width: 100%;
+        display: block;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
     }
     .gabr-text{
         background-color: #fff;
         border: 1px solid black;
-        flex-basis: 30%;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
         
+        flex-basis: 30%;
+    }
+    .adjust{
+        width: 80%;
+        margin: auto;
+        padding: 1.5rem 0;
     }
     .gabr-text h5{
         letter-spacing: .5rem;
