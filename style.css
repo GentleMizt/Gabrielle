@@ -19,10 +19,10 @@
         
     }
     .gabr-perf{        
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
-        flex-basis: 30%;
+        flex-basis: 33%;
     }
     .gabr-img img{
         width: 100%;
@@ -32,11 +32,10 @@
     }
     .gabr-text{
         background-color: #fff;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
-        
-        flex-basis: 30%;
+        flex-basis: 33%;
     }
     .adjust{
         width: 80%;
@@ -46,12 +45,36 @@
     .gabr-text h5{
         letter-spacing: .5rem;
         font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
         font-weight: 500;
     }
     .gabr-text h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
         line-height: 1;
-        letter-spacing: .1rem;
-        margin: 1rem 0;
+        /* letter-spacing: .1rem; */
+        margin: 1.3rem 0;
         font-family: 'Fraunces', serif;
+    }
+    .adjust p{
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228, 12%, 48%);
+        margin: 1rem 0;
+    }
+    .price-flex{
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    .price-flex h2{
+        /* border: 1px solid black; */
+        font-size: 1.9rem;
+        color: hsl(158, 36%, 37%);
+    }
+    .price-flex p{
+        /* border: 1px solid blue; */
+        margin-right: 2.5rem;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%)
     }
