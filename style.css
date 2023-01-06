@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@0;1&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:wght@100;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');         *{}  
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@0;1&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:wght@100;300;400;500&family=Roboto:wght@100;300;400;500&display=swap');        
     *{
         padding: 0;
         margin: 0;
@@ -33,12 +33,6 @@
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
     }
-    /* .gabr-img img{
-        width: 100%;
-        display: block;
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-    } */
     .gabr-text{
         background-color: #fff;
         border-top-right-radius: 1rem;
@@ -118,7 +112,6 @@
             width: 85vw;
             height: 100vh;
             margin: auto;
-            /* border: 1px solid red; */
         }
         .gabr-perf{
             border-top-right-radius: 1rem;
@@ -126,9 +119,6 @@
             /* flex-basis: 20%; */
             border-bottom-left-radius: 0;
         }
-        /* .gabr-img{
-            width: 50%;
-        } */
         .gabr-img{
             background: url(./images/image-product-desktop.jpg);
             background-repeat: no-repeat;
@@ -145,7 +135,7 @@
             padding-bottom: 0;
         }
         .gabr-text{
-            flex-basis: 60%;
+            flex-basis: 50%;
             border-top-right-radius: 0;
             border-bottom-left-radius: 1rem;
             height: 100px !important;
